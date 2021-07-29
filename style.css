@@ -24,7 +24,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  background-image: url('/images/bg-header-desktop.png');
+  background-image: url('images/bg-header-desktop.png');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
@@ -209,7 +209,7 @@ footer .container {
 @media screen and (max-width: 825px) {
 
   body {
-    background-image: url('/images/bg-header-mobile.png');
+    background-image: url('images/bg-header-mobile.png');
   }
 
   h1 {
