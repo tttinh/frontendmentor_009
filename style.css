@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 
 :root {
+  --clr-cyan-light: hsl(171, 66%, 50%);
   --clr-cyan: hsl(171, 66%, 44%);
+  --clr-cyan-dark: hsl(171, 66%, 40%);
+  --clr-blue-light: hsl(233, 100%, 75%);
   --clr-blue: hsl(233, 100%, 69%);
+  --clr-blue-dark: hsl(233, 100%, 65%);
   --clr-neutral-blue-700: hsl(210, 10%, 33%);
   --clr-neutral-blue-400: hsl(201, 11%, 66%);
 }
@@ -56,11 +60,45 @@ h3 {
   font-weight: 600;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.55em 2em;
+  margin: 0.5em;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: var(--clr-cyan);
+  border-bottom: solid 3px var(--clr-cyan-dark);
+}
+
+.btn-primary:active {
+  background-color: var(--clr-cyan-light);
+  border-bottom: solid 3px var(--clr-cyan);
+}
+
+.btn-secondary {
+  background-color: var(--clr-blue);
+  border-bottom: solid 3px var(--clr-blue-dark);
+}
+
+.btn-secondary:active {
+  background-color: var(--clr-blue-light);
+  border-bottom: solid 3px var(--clr-blue);
+}
+
+
 /* HISTORY */
 .history__logo {
   margin: 6rem auto 2rem;
   width: 6rem;
   height: 6rem;
+}
+
+.downloads {
+  margin-top: 3rem;
 }
 
 /* SNIPPETS */
