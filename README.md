@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/clipboard-landing-page-cW9YeaJCv)
 - [Live Site URL](https://tttinh.github.io/frontendmentor_009/)
 
 ## My process
